@@ -3,7 +3,7 @@ This portfolio project features 5 analytical SQL scripts designed to extract act
 
 ## Repository Contents
 * `Executive Financial Summary & Net Revenue L...sql`: Firm revenue totals, costs, and net losses.
-* 
+
   <img width="353" height="189" alt="EFS1" src="https://github.com/user-attachments/assets/c7303a63-b35c-4434-8b51-3d8bc789e3e9" />
   <img width="665" height="62" alt="EFS2" src="https://github.com/user-attachments/assets/7407e257-cfae-4854-9a11-cb8a42eb4385" />
   <img width="835" height="689" alt="EFS 3" src="https://github.com/user-attachments/assets/41e27c12-65aa-4340-a9a4-ddce766fbbc0" />
