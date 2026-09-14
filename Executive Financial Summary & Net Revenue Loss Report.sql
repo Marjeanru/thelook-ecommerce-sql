@@ -13,7 +13,7 @@ Order by Total_orders ASC;
 Select 
     To_Char((Sum(sale_price) - SUM(Case when O.status IN('Cancelled','Returned') Then sale_price else 0 END)), '99,999,999.99€') AS Total_Sales_Revenue,
 	To_Char(SUM(Case when O.status IN('Cancelled','Returned') Then sale_price else 0 END), '99,999,999.99€') AS Total_Sales_Lost,
-    Round(AVG(Case When O.status NOT IN('Cancelled','Returned') Then sale_price Else 0 END), 2) AS delivery_sucess,
+    Round(AVG(Case When O.status NOT IN('Cancelled','Returned') Then sale_price Else 0 END), 2) AS Delivery_sucess,
     To_Char(Sum(P.cost), '99,999,999.99€') AS Total_Cost,
     To_Char((Sum(sale_price) - SUM(Case when O.status IN('Cancelled','Returned') Then sale_price else 0 END)) - Sum(P.cost), '99,999,999.99€') as Total_Net_Revenue	
 from orders as O
