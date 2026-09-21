@@ -43,11 +43,11 @@ Order by Sum(sale_price) DESC;
 --Does customers buy again?
 
 Select 
-	Buy_again,
+	Times_buying,
 	count(user_id) AS Total_users,
 	Round((Count(user_id)/Sum(Count(user_id)) OVER())*100,2) AS percentage
 from(Select 
-	Case When Count(distinct(order_id))>1 Then 'Buying Again' else 'Just One' END AS Buy_again,
+	Case When Count(distinct(order_id))>1 Then 'More than One' else 'One' END AS Times_buying,
 	user_id
 from users AS U
 INNER JOIN order_items AS OI ON U.id=OI.user_id
