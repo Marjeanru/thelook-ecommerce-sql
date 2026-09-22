@@ -1,5 +1,5 @@
 ## Project Overview
-This portfolio project features 5 analytical SQL scripts designed to extract actionable business insights from "TheLook" e-commerce dataset. The project evaluates overall financial performance, sales, customer analysis,inventory, conversion funnels, and user journey.
+This portfolio project features 5 analytical SQL scripts designed to extract actionable business insights from "TheLook" e-commerce dataset. The project evaluates overall financial performance, sales, customer analysis,inventory and user journey.
 
 ## Repository Contents
 * `Executive Financial Summary & Net Revenue L...sql`: Firm revenue totals, costs, and net losses.
@@ -28,7 +28,7 @@ This portfolio project features 5 analytical SQL scripts designed to extract act
 <img width="329" height="688" alt="UI3" src="https://github.com/user-attachments/assets/18631eff-5940-4362-8750-ae4a6f1a6559" />
 
 
-* `User journey.sql`: E-commerce session traffic and conversion funnel drop-offs.
+* `User journey.sql`: Tracking marketing channel performance and analyzes cart abandonment rates across the e-commerce purchase funnel.
 
 <img width="330" height="162" alt="UJ1" src="https://github.com/user-attachments/assets/62e02d9a-1997-42f1-9dc0-340e466af7a1" />  
 <img width="307" height="140" alt="UJ2" src="https://github.com/user-attachments/assets/a61c2a29-ec25-4057-abba-98c58f406999" />
