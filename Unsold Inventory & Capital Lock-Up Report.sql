@@ -1,4 +1,4 @@
---Time taken for preparing and deliver a product
+--Time taken for preparing and delivering a product
 Select * from order_items O
 INNER JOIN products P ON P.id=O.product_id 
 where status= 'Cancelled' and Extract(epoch from(delivered_at-created_at))<0;
